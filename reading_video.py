@@ -1,7 +1,7 @@
 import cv2
 
 # create a VideoCapture object
-cap = cv2.VideoCapture('path_of_video_file')
+cap = cv2.VideoCapture('D:\Github\lane_detection\solidWhiteRight.mp4')
 
 # check if the video was successfully opened
 if not cap.isOpened():
