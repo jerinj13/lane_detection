@@ -1,4 +1,5 @@
 import cv2
+import time
 
 # create a VideoCapture object
 cap = cv2.VideoCapture('D:\Github\lane_detection\solidWhiteRight.mp4')
@@ -18,6 +19,7 @@ while cap.isOpened():
 
     # display the frame
     cv2.imshow('Video', frame)
+    time.sleep(0.1)
 
     # wait for a key event to exit
     if cv2.waitKey(1) == ord('q'):

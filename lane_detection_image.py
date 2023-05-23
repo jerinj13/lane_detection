@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load an image from a file
-img = cv2.imread('solidWhiteRight.jpg')
+img = cv2.imread("lane_detection\solidWhiteRight.jpg")
 
 # if to be resized, else comment
 # set new width and height
